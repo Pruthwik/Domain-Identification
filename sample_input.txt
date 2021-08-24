@@ -1,0 +1,2 @@
+So T1 would not have been able to execute unless it has obtained a lock on x because between O1 and O2 conflicting , T1 has got the lock before T2 that ' s the reason why this relationship is possible , otherwise this relationship is impossible .
+Remember the condition that was imposed by 2 PL which says that unless all the locks are obtained , you are not going to release the previous lock that is what we meant by lock point right .
